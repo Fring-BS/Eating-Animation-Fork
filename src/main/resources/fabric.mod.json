@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "eatinganimationid",
+  "version": "${version}",
+
+  "name": "Eating Animation Fork",
+  "description": "Unofficial fork of the Eating Animation mod for Minecraft 1.21.11. Adds simple sprite animation when you eat or drink something. Uses the new 1.21.4+ item model definition system.",
+  "authors": [
+    "theone_ss", "spusik_", "PinkGoosik", "DoctorNight1", "Fork Maintainer"
+  ],
+  "contributors": [
+    "Original mod by theone_ss (MIT License)"
+  ],
+  "contact": {
+    "homepage": "https://github.com/your-username/EatingAnimationFork",
+    "sources": "https://github.com/your-username/EatingAnimationFork",
+    "issues": "https://github.com/your-username/EatingAnimationFork/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/eatinganimationid/eatinganimationicon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.tpsd.eatinganimationmod.EatingAnimationClientMod"]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.16",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.4",
+    "java": ">=21"
+  }
+}

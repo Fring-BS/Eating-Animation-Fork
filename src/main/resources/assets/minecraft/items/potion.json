@@ -1,0 +1,72 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "scale": 0.033333,
+      "entries": [
+        {
+          "threshold": 0.35,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/potion_overlay_drinking_0",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": -13083194
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.7,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/potion_overlay_drinking_1",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": -13083194
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 0.9,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/potion_overlay_drinking_2",
+            "tints": [
+              {
+                "type": "minecraft:potion",
+                "default": -13083194
+              }
+            ]
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/potion",
+        "tints": [
+          {
+            "type": "minecraft:potion",
+            "default": -13083194
+          }
+        ]
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/potion",
+      "tints": [
+        {
+          "type": "minecraft:potion",
+          "default": -13083194
+        }
+      ]
+    }
+  }
+}
