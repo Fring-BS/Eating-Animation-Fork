@@ -8,21 +8,21 @@
       "scale": 0.033333,
       "entries": [
         {
-          "threshold": 0.2,
+          "threshold": 0.35,
           "model": {
             "type": "minecraft:model",
             "model": "farmersdelight:item/apple_pie_slice_eating_0"
           }
         },
         {
-          "threshold": 0.3,
+          "threshold": 0.7,
           "model": {
             "type": "minecraft:model",
             "model": "farmersdelight:item/apple_pie_slice_eating_1"
           }
         },
         {
-          "threshold": 0.35,
+          "threshold": 0.9,
           "model": {
             "type": "minecraft:model",
             "model": "farmersdelight:item/apple_pie_slice_eating_2"
