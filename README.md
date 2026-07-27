@@ -1,4 +1,4 @@
-# Eating Animation Fork
+ # Eating Animation Fork
 
 A simple, client-side **Fabric and NeoForge** mod that adds smooth 3-stage sprite animations for eating food and drinking potions in Minecraft. Watch your apple get smaller bite-by-bite, your bread tear apart, your potion bottle empty sip-by-sip — all in your hand, in the hotbar, and in the inventory.
 
