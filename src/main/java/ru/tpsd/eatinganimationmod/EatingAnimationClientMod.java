@@ -31,7 +31,7 @@ public class EatingAnimationClientMod implements ClientModInitializer {
                 ResourceManagerHelper.registerBuiltinResourcePack(
                         locate("supporteatinganimation"),
                         eatinganimation,
-                        ResourcePackActivationType.DEFAULT_ENABLED));
+                        ResourcePackActivationType.ALWAYS_ENABLED));
     }
 
     public static Identifier locate(String path) {
