@@ -5,9 +5,7 @@
 
   "name": "Eating Animation Fork",
   "description": "Unofficial fork of the Eating Animation mod for Minecraft 1.21.11. Adds simple sprite animation when you eat or drink something. Uses the new 1.21.4+ item model definition system.",
-  "authors": [
-    "theone_ss", "spusik_", "PinkGoosik", "DoctorNight1", "Fork Maintainer"
-  ],
+  "authors": ["theone_ss", "spusik_", "PinkGoosik", "DoctorNight1", "Fring"]
   "contributors": [
     "Original mod by theone_ss (MIT License)"
   ],
