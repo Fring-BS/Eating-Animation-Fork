@@ -1,6 +1,5 @@
 plugins {
 	id "net.fabricmc.fabric-loom" version "${loom_version}"
-	id "io.github.juuxel.loom-quiltflower" version "1.8.0"
 }
 
 base {
