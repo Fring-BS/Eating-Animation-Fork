@@ -34,7 +34,9 @@ public class EatingAnimationClientMod implements ClientModInitializer {
                         ResourcePackActivationType.ALWAYS_ENABLED));
     }
 
+    private static final String MOD_ID = "eatinganimationid";
+
     public static Identifier locate(String path) {
-        return Identifier.ofVanilla(path);
+       return Identifier.fromNamespaceAndPath(MOD_ID, path);
     }
 }
