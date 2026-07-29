@@ -1,8 +1,8 @@
 package ru.tpsd.eatinganimationmod;
 
 import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.fabric.api.resource.ResourceManagerHelper;
-import net.fabricmc.fabric.api.resource.ResourcePackActivationType;
+import net.fabricmc.fabric.api.resource.v1.ResourceLoader;
+import net.fabricmc.fabric.api.resource.v1.pack.PackActivationType;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.resources.Identifier;
 
@@ -10,7 +10,7 @@ import net.minecraft.resources.Identifier;
  * Eating Animation Fork - client initializer for Minecraft 26.x.
  *
  * <p>Registers the bundled "supporteatinganimation" resource pack as an
- * {@link ResourcePackActivationType#ALWAYS_ENABLED always-enabled} pack. This
+ * {@link PackActivationType#ALWAYS_ENABLED always-enabled} pack. This
  * means the pack:</p>
  * <ul>
  *   <li>Is enabled by default on every launch (appears in the "Selected" column
@@ -30,10 +30,10 @@ public class EatingAnimationClientMod implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         FabricLoader.getInstance().getModContainer(MOD_ID).ifPresent(modContainer ->
-                ResourceManagerHelper.registerBuiltinResourcePack(
+                ResourceLoader.registerBuiltinPack(
                         locate(BUNDLED_PACK_ID),
                         modContainer,
-                        ResourcePackActivationType.ALWAYS_ENABLED));
+                        PackActivationType.ALWAYS_ENABLED));
     }
 
     public static Identifier locate(String path) {
