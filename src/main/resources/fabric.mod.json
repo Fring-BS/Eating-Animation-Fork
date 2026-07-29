@@ -1,32 +1,26 @@
 {
-  "schemaVersion": 1,
-  "id": "eatinganimationid",
-  "version": "${version}",
-
-  "name": "Eating Animation Fork",
-  "description": "Unofficial fork of the Eating Animation mod for Minecraft 1.21.11. Adds simple sprite animation when you eat or drink something. Uses the new 1.21.4+ item model definition system.",
-  "authors": ["theone_ss", "spusik_", "PinkGoosik", "DoctorNight1", "Fring"]
-  "contributors": [
-    "Original mod by theone_ss (MIT License)"
-  ],
-  "contact": {
-    "homepage": "https://github.com/Fring-BS/Eating-Animation-Fork",
-    "sources": "https://github.com/Fring-BS/Eating-Animation-Fork",
-    "issues": "https://github.com/Fring-BS/Eating-Animation-Fork/issues"
-  },
-
-  "license": "MIT",
-  "icon": "assets/eatinganimationid/eatinganimationicon.png",
-
-  "environment": "client",
-  "entrypoints": {
-    "client": ["ru.tpsd.eatinganimationmod.EatingAnimationClientMod"]
-  },
-
-  "depends": {
-    "fabricloader": ">=0.19.3",
-    "fabric-api": "*",
-    "minecraft": ">=1.21.4",
-    "java": ">=21"
-  }
+    "schemaVersion": 1,
+    "id": "eatinganimationid",
+    "version": "${version}",
+    "name": "Eating Animation Fork",
+    "description": "Client-side mod that adds smooth 3-stage sprite animations for eating food and drinking potions. Unofficial fork of the original Eating Animation mod by theone_ss, fully rewritten for modern Minecraft versions.",
+    "authors": ["theone_ss", "spusik_", "PinkGoosik", "DoctorNight1", "Fring"],
+    "contributors": ["Original mod by theone_ss (MIT License)"],
+    "contact": {
+        "homepage": "https://modrinth.com/mod/eating-animation-fork",
+        "sources": "https://github.com/Fring-BS/Eating-Animation-Fork",
+        "issues": "https://github.com/Fring-BS/Eating-Animation-Fork/issues"
+    },
+    "license": "MIT",
+    "icon": "assets/eatinganimationid/eatinganimationicon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": ["ru.tpsd.eatinganimationmod.EatingAnimationClientMod"]
+    },
+    "depends": {
+        "fabricloader": ">=0.19.3",
+        "fabric-api": "*",
+        "minecraft": ">=1.21.4",
+        "java": ">=21"
+    }
 }
