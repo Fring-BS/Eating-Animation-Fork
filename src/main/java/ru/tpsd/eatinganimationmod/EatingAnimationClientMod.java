@@ -37,6 +37,6 @@ public class EatingAnimationClientMod implements ClientModInitializer {
     }
 
     public static Identifier locate(String path) {
-        return Identifier.fromNamespaceAndPath("minecraft", path);
+        return Identifier.fromNamespaceAndPath(MOD_ID, path);
     }
 }
