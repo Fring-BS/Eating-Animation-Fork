@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 84,
-    "description": "§c§lEating Animation Fork\n§c§lmods support"
+    "description": "\u00A7c\u00A7lEating Animation Fork\n\u00A7c\u00A7lmods support",
+    "min_format": 84,
+    "max_format": 84
   }
 }
