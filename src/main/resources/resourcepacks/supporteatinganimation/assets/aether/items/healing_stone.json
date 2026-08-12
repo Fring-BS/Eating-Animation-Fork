@@ -11,32 +11,32 @@
           "threshold": 0.35,
           "model": {
             "type": "minecraft:model",
-            "model": "aether:item/blue_berry_0"
+            "model": "aether:item/healing_stone_0"
           }
         },
         {
           "threshold": 0.7,
           "model": {
             "type": "minecraft:model",
-            "model": "aether:item/blue_berry_1"
+            "model": "aether:item/healing_stone_1"
           }
         },
         {
           "threshold": 0.9,
           "model": {
             "type": "minecraft:model",
-            "model": "aether:item/blue_berry_2"
+            "model": "aether:item/healing_stone_2"
           }
         }
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "aether:item/blue_berry"
+        "model": "aether:item/healing_stone"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "aether:item/blue_berry"
+      "model": "aether:item/healing_stone"
     }
   }
 }

@@ -11,32 +11,32 @@
           "threshold": 0.35,
           "model": {
             "type": "minecraft:model",
-            "model": "aether:item/blue_berry_0"
+            "model": "aether:item/white_apple_0"
           }
         },
         {
           "threshold": 0.7,
           "model": {
             "type": "minecraft:model",
-            "model": "aether:item/blue_berry_1"
+            "model": "aether:item/white_apple_1"
           }
         },
         {
           "threshold": 0.9,
           "model": {
             "type": "minecraft:model",
-            "model": "aether:item/blue_berry_2"
+            "model": "aether:item/white_apple_2"
           }
         }
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "aether:item/blue_berry"
+        "model": "aether:item/white_apple"
       }
     },
     "on_false": {
       "type": "minecraft:model",
-      "model": "aether:item/blue_berry"
+      "model": "aether:item/white_apple"
     }
   }
 }
