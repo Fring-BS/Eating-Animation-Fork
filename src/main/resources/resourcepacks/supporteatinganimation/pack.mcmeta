@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "description": "§4§lEating Animation Fork §1§lmods support",
+    "pack_format": 46,
+    "supported_formats": {
+      "min_inclusive": 46,
+      "max_inclusive": 999
+    },
+    "min_format": 46,
+    "max_format": 999
+  }
+}
