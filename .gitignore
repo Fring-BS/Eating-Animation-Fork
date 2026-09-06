@@ -1,0 +1,22 @@
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+bin/
+.classpath
+.project
+.settings/
+
+# Fabric/NeoForge dev runtime
+run/
+
+# macOS
+.DS_Store
