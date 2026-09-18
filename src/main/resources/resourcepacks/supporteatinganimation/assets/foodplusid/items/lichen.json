@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "scale": 0.033333,
+      "entries": [
+        {
+          "threshold": 0.2,
+          "model": {
+            "type": "minecraft:model",
+            "model": "foodplusid:item/lichen_eating_0"
+          }
+        },
+        {
+          "threshold": 0.3,
+          "model": {
+            "type": "minecraft:model",
+            "model": "foodplusid:item/lichen_eating_1"
+          }
+        },
+        {
+          "threshold": 0.35,
+          "model": {
+            "type": "minecraft:model",
+            "model": "foodplusid:item/lichen_eating_2"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "foodplusid:item/lichen"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "foodplusid:item/lichen"
+    }
+  }
+}
