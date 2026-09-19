@@ -18,7 +18,7 @@
         "client": ["ru.tpsd.eatinganimationmod.EatingAnimationClientMod"]
     },
     "depends": {
-        "fabricloader": ">=0.19.3",
+        "fabricloader": ">=0.19.5",
         "fabric-api": "*",
         "minecraft": ">=1.21.4",
         "java": ">=21"
