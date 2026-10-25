@@ -34,7 +34,7 @@ jobs:
         run: .\gradlew.bat build
 
       - name: Capture build artifacts
-        if: ${{ matrix.java == '21' }}
+        if: ${{ matrix.java == '25' }}
         uses: actions/upload-artifact@v7
         with:
           name: Artifacts-${{ runner.os }}
